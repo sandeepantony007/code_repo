@@ -1,3 +1,6 @@
+/* Fetches the customers who have never placed an order based on ANTI JOIN logic using NOT EXISTS CLAUSE*/
+
+--Code:
 SELECT
     customer_id,
     customer_name,
