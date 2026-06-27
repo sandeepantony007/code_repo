@@ -1,3 +1,9 @@
+/*This query finds the longest streak of consecutive calendar months in which each customer placed at least one completed order, it uses Common Table Expressions (CTEs) and window functions to find,
+
+Unique months in which each customer placed a completed order
+Creates a grouping key that identifies consecutive months.
+Joins all customers with their streaks and returns the maximum streak length for each customer.*/
+
 WITH customer_months AS
 (
     -- One row per customer per completed-order month
