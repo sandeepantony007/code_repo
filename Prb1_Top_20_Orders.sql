@@ -1,3 +1,6 @@
+/* This query fetches the top 20 completed orders by a Sales rep based on the order total value. Rank() window function and cte is used to fetch the top 20 records */
+
+--Code:
 WITH orders AS (
     SELECT
         order_id,
